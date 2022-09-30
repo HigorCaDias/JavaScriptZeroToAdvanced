@@ -1,0 +1,18 @@
+console.log(typeof String);
+console.log(typeof Array);
+console.log(typeof Object);
+
+
+// 
+String.prototype.reverse = function (){
+    return this.split('').reverse().join
+}
+console.log('escola coder'.reverse());
+
+Array.prototype.first = function(){
+    return this[0]
+}
+// cuidado ao substiruir novos comportamentos dentro de prototypes, isso pode acarretar uma serie de erros
+
+console.log([1,2,3,4,5,].firts());
+console.log([a,b,c,d]);

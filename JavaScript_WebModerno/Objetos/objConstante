@@ -1,0 +1,7 @@
+// pesso -> 123 {...}
+const pessoa = {nome: 'joao'}
+
+// podemos alterar o atributo nome dentro do onj 'pessoa' de uma const; mas n podemos mudar a pessoa
+
+// funcao que serve para congelar o obj e nao ser mais alterado ao decorrer do projeto
+Object.freeze(pessoa)
